@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل دخول إنستجرام</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_logo_2022.svg" alt="Instagram Logo" class="logo">
+        <form class="login-form">
+            <input type="text" placeholder="البريد الإلكتروني أو اسم المستخدم" required>
+            <input type="password" placeholder="كلمة المرور" required>
+            <button type="submit" class="login-btn">تسجيل الدخول</button>
+            <a href="#" class="forgot-password">هل نسيت كلمة المرور؟</a>
+        </form>
+        <div class="signup-link">
+            <p>ليس لديك حساب؟ <a href="#">إنشاء حساب</a></p>
+        </div>
+    </div>
+</body>
+</html>
+
+كود CSS:
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #1e88e5;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    color: #3897f0;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.signup-link {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: #3897f0;
+    text-decoration: none;
+}
