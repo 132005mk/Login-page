@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل دخول إنستجرام</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_logo_2022.svg" alt="Instagram Logo" class="logo">
+        <form class="login-form">
+            <input type="text" placeholder="البريد الإلكتروني أو اسم المستخدم" required>
+            <input type="password" placeholder="كلمة المرور" required>
+            <button type="submit" class="login-btn">تسجيل الدخول</button>
+            <a href="#" class="forgot-password">هل نسيت كلمة المرور؟</a>
+        </form>
+        <div class="signup-link">
+            <p>ليس لديك حساب؟ <a href="#">إنشاء حساب</a></p>
+        </div>
+    </div>
+</body>
+</html>
